@@ -1,0 +1,4 @@
+com\mycompany\crud\produto\dao\ProdutoDAO.class
+com\mycompany\crud\aplicacao\Main.class
+com\mycompany\crud\produto\Produto.class
+com\mycompany\crud\factory\ConnectionFactory.class
