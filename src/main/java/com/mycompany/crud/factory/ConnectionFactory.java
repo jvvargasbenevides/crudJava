@@ -28,7 +28,7 @@ public class ConnectionFactory {
      * @throws Exception
      */
     public static Connection createConnectionToMySQL() throws Exception {
-        Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection = DriverManager.getConnection(DATABASE_URL, USERNAME, PASSWORD);
         
         return connection;
